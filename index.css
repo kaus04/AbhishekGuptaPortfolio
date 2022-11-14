@@ -1,0 +1,188 @@
+.nav-item{
+font-family: 'Montserrat-Variable';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+margin-left: 81px;
+color: #000000;
+
+}
+.scrolling-titles-wrapper{
+   height:50px;
+   animation: move 10s ease-in-out infinite alternate-reverse;
+}
+@keyframes move {
+    25% {transform: translateY(-50px);}
+    50% {transform: translateY(-100px);}
+    75% {transform: translateY(-150px);}
+    100% {transform: translateY(-200px);}
+ 
+}
+.scrolling-titles{
+    height: 50px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    margin-top: 113px;
+    margin-bottom: 24px;
+}
+.scrolling-titles-item{
+    height: 50px;
+    font-family: 'Clash Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    letter-spacing: 0.55em;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    
+
+}
+.header-text-wrapper{
+    justify-content: center;
+    display: flex;
+ 
+}
+.header-text{
+
+width: 660px;
+height: 150px;
+font-family: 'Montserrat-Variable';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 147.9%;
+text-align: center;
+letter-spacing: 0.06em;
+
+color: #000000;
+}
+.image-with-name{
+    display: flex;
+    justify-content: center;
+}
+.project-header{
+    /* PROJECTS */
+width: 127px;
+height: 25px;
+font-family: 'ClashDisplay-Variable';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 25px;
+/* identical to box height */
+letter-spacing: 0.115em;
+text-transform: uppercase;
+color: #000000;
+margin-top: 272px;
+
+}
+.project-title{
+    /* PERSONAL */
+width: 760px;
+height: 84px;
+font-family: 'Panchang-Variable';
+font-style: normal;
+font-weight: 400;
+font-size: 64px;
+line-height: 84px;
+letter-spacing: 0.495em;
+color: white;
+            font-size: 50px;
+            -webkit-text-stroke-width: 1px;
+            -webkit-text-stroke-color: black;
+margin-bottom: 37px;
+
+}
+@font-face {
+    font-family: 'Panchang-Variable';
+    src: url('./fonts/Panchang_Complete/Fonts/Variable/Panchang-Variable.ttf') format('truetype');
+         font-weight: 200 800;
+}
+@font-face {
+    font-family: 'ClashDisplay-Variable';
+    src: url('./fonts/ClashDisplay_Complete/Fonts/Variable/ClashDisplay-Variable.ttf') format('truetype');
+         font-weight: 200 800;
+         font-display: swap;
+         font-style: normal;
+}
+@font-face {
+    font-family: 'Montserrat-Variable';
+    src: url('./fonts/Montserrat_Complete/Fonts/Variable/Montserrat-Variable.ttf') format('truetype');
+         font-weight: 200 800;
+         font-display: swap;
+         font-style: normal;
+}
+.project-digital-well-being{
+    width: 1227px;
+    height: 372px;
+    margin-top: 36px;
+    display: flex;
+    justify-content: center;
+    
+}
+.project-let-it-wag-app{
+    margin-top: 40px;
+    margin-right:40px;
+    display: flex;
+    justify-content: center;
+}
+.project-finance-app{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+
+}
+.project-personal-blank-1{
+    margin-top: 40px;
+    margin-right:40px;
+    display: flex;
+    justify-content: center;
+}
+.project-personal-blank-2{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+.project-academic-blank-3{
+    margin-top: 40px;
+    
+    display: flex;
+    justify-content: center;
+}
+.project-academic-blank-4{
+    margin-top: 40px;
+    margin-left: 40px;
+    display: flex;
+    justify-content: center;
+}
+.project-professional-blank-2{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+.project-professional-blank-3{
+    margin-top: 40px;
+    margin-left: 40px;
+    display: flex;
+    justify-content: center;
+}
+.project-tile-2{
+    width: 1227px;
+    height: 372px;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.project-tile-3{
+    width: 1227px;
+    height: 372px;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
