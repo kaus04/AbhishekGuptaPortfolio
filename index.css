@@ -1,14 +1,4 @@
-.nav-item{
-font-family: 'Montserrat-Variable';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 17px;
-/* identical to box height */
-margin-left: 81px;
-color: #000000;
 
-}
 .scrolling-titles-wrapper{
    height:50px;
    animation: move 10s ease-in-out infinite alternate-reverse;
@@ -186,3 +176,40 @@ margin-bottom: 37px;
     margin-top: 40px;
 }
 
+.nav-link {
+    font-family: 'Montserrat-Variable';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    margin-left: 81px;
+    color: #000000;
+    padding: 20px 0px;
+    margin: 0px 20px;
+    display: inline-block;
+    position: relative;
+    opacity: 0.75;
+  }
+  
+  .nav-link:hover {
+    opacity: 1;
+  }
+  
+  .nav-link::before {
+    transition: 0.25s;
+    height: 2px;
+    content: "";
+    position: absolute;
+    background-color: #000000;
+  }
+  
+  .nav-link-ltr::before {
+    width: 0%;
+    bottom: 12px;
+  }
+  
+  .nav-link-ltr:hover::before {
+    width: 100%;
+  }
+  
