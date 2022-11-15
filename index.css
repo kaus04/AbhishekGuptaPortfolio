@@ -1,4 +1,7 @@
 
+html {
+    scroll-behavior: smooth;
+  }
 .scrolling-titles-wrapper{
    height:50px;
    animation: move 10s ease-in-out infinite alternate-reverse;
@@ -54,6 +57,7 @@ color: #000000;
 .image-with-name{
     display: flex;
     justify-content: center;
+    
 }
 .project-header{
     /* PROJECTS */
@@ -68,7 +72,7 @@ line-height: 25px;
 letter-spacing: 0.115em;
 text-transform: uppercase;
 color: #000000;
-margin-top: 272px;
+
 
 }
 .project-title{
@@ -211,5 +215,10 @@ margin-bottom: 37px;
   
   .nav-link-ltr:hover::before {
     width: 100%;
+  }
+
+.side-nav{
+    display: flex;
+    justify-content: left;
   }
   
