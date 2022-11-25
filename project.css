@@ -1,0 +1,23 @@
+body {
+    background-color: #bfbfbf;
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+.navbar{
+    background-color: #bfbfbf;
+}
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
+.project{
+    
+    margin-top: 78px;
+    display: flex;
+    justify-content: center;
+}
